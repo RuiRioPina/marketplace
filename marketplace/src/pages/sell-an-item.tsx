@@ -45,13 +45,14 @@ const SellAnItem: NextPage = () => {
             <div>
               <label
                 htmlFor="name"
-                className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                className="mb-2 block text-sm font-medium text-white dark:text-gray-900"
               >
                 Item Name
               </label>
               <input
                 id="name"
-                className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Build Name"
+                className="block w-full rounded-lg border border-gray-300 bg-slate-600 p-2.5 text-sm text-slate-100 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 {...register("name", { required: true })}
               />
             </div>
@@ -59,13 +60,14 @@ const SellAnItem: NextPage = () => {
             <div>
               <label
                 htmlFor="description"
-                className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                className="mb-2 block text-sm font-medium text-white dark:text-gray-900"
               >
                 Description
               </label>
               <textarea
                 id="description"
-                className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Build Description (What do you use it for? What worked well? Any problems?)"
+                className="block w-full rounded-lg border border-gray-300 bg-slate-600 p-2.5 text-sm text-slate-100 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 {...register("description", { required: true })}
               />
             </div>
@@ -73,7 +75,7 @@ const SellAnItem: NextPage = () => {
             <div>
               <label
                 htmlFor="price"
-                className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                className="mb-2 block text-sm font-medium text-white dark:text-gray-900"
               >
                 Price
               </label>
@@ -81,7 +83,7 @@ const SellAnItem: NextPage = () => {
                 id="price"
                 type="number"
                 step="0.01"
-                className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="block w-full rounded-lg border border-gray-300 bg-slate-600 p-2.5 text-sm text-slate-100 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 {...register("price", { required: true })}
               />
             </div>

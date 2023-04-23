@@ -8,7 +8,7 @@ export function NavBar() {
     <nav className="border-gray-200 bg-white dark:bg-gray-900">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <Link href="/" className="flex items-center">
-          <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+          <span className="self-center whitespace-nowrap text-2xl font-semibold text-gray-700 dark:text-white">
             MarketPlace
           </span>
         </Link>

@@ -59,7 +59,7 @@ const ListingView: NextPage = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                  className="mb-2 block text-sm font-medium dark:text-black"
                 >
                   Message
                 </label>
